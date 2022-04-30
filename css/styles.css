@@ -1,0 +1,156 @@
+/*цвет основного текста : rgba(117, 117, 117, 1) */
+
+/*вторичный цвет: #212121 */
+
+/*акцент: #2196F3 */
+
+/*простой белый: #FFFFFF*/
+
+/*фоновый серый: #2F303A*/
+
+/*контакты футер: rgba(255, 255, 255, 0.6) */
+
+:root {
+    --primary-text-color: rgba(117, 117, 117, 1);
+    --secondary-color: #212121;
+    --accent-color: #2196F3;
+    --simply-white: #FFFFFF;
+    --fon-grey: #2F303A;
+    --contacs-footer: rgba(255, 255, 255, 0.6);
+    --simply-black: #000000;
+    --btn-fon: rgba(245, 244, 250, 1);
+}
+
+.akcent {
+        color: var(--accent-color);
+    }
+    
+.akcent-two {
+        color: var(--simply-white);
+    }
+    
+.body {
+    background-color: var(--simply-white);
+    color: var(--primary-text-color);
+    font-family: ;
+}
+
+.list {
+    list-style: none;
+}
+
+.logo {
+    color: var(--simply-black);
+}
+
+/*site-nav*/
+
+.site-nav .link {
+    color: var(--secondary-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
+/*contacts*/
+
+.contacts a:hover,
+.contacts a:focus {
+    color: var(--accent-color);
+}
+
+.tel-header {
+    position: absolute;
+    width: 122px;
+    height: 16px;
+    left: 1263px;
+    top: 32px;
+    color: var(--primary-text-color);
+}
+
+.mail-header {
+    position: absolute;
+    width: 135px;
+    height: 16px;
+    left: 1078px;
+    top: 32px;
+    color: var(--primary-text-color);
+}
+
+/*hero*/
+
+.hero {
+    background-color: var(--fon-grey);
+}
+
+.hero-title {
+    color: var(--simply-white);
+}
+
+.hero-btn {
+    color: var(--simply-white);
+    background: var(--accent-color);
+}
+
+/*features*/
+
+.features-title {
+    color: var(--secondary-color);
+}
+
+.features-text {
+    color: var(--primary-text-color);
+}
+
+.section-title {
+    color: var(--secondary-color);
+}
+
+.team-title {
+    color: var(--secondary-color);
+}
+
+.team-text {
+    color: var(--primary-text-color);
+}
+
+/*footer*/
+
+.footer {
+    background-color: var(--fon-grey);
+}
+
+.location {
+    color: var(--simply-white);
+}
+
+.tel-footer {
+    color: var(--contacs-footer);
+}
+
+.mail-footer {
+    color: var(--contacs-footer);
+}
+
+/*filters*/
+
+.filters-btn {
+    color: var(--secondary-color);
+    background-color: var(--simply-white);
+}
+
+.filters-btn-primary {
+    color: var(--simply-white);
+    background: var(--accent-color);
+}
+
+.filters-btn-secondary {
+    color: var(--secondary-color);
+    background: var(--btn-fon);
+}
