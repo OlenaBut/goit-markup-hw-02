@@ -77,7 +77,6 @@
 
 .tel-header {
   color: var(--primary-text-color);
-  font-family: inherit;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.7;
@@ -86,7 +85,6 @@
 
 .mail-header {
     color: var(--primary-text-color);
-    font-family: inherit;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.7;
@@ -132,7 +130,6 @@
 
 .features-text {
     color: var(--primary-text-color);
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
 }
@@ -175,7 +172,6 @@
 
 .tel-footer {
     color: var(--contacs-footer);
-    font-family: inherit;
     font-size: 14px;
     line-height: 1.7;
     text-decoration: none;
@@ -183,7 +179,6 @@
 
 .mail-footer {
     color: var(--contacs-footer);
-    font-family: inherit;
     font-size: 14px;
     line-height: 1.7;
     text-decoration: none;
@@ -205,12 +200,20 @@
     color: var(--simply-white);
     background: var(--accent-color);
     font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
 }
 
 .filters-btn-secondary {
     color: var(--secondary-color);
     background: var(--btn-fon);
     font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
 }
 
 /*works list*/
@@ -225,6 +228,5 @@
 
 .work-text {
     color: var(--primary-text-color);
-    font-weight: 400;
     line-height: 1.9;
 }
