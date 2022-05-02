@@ -44,7 +44,8 @@
     color: var(--simply-black);
     font-family: 'Raleway';
     font-size: 26px;
-    line-height: 1,19;
+    line-height: 1.19;
+    text-decoration: none;
 }
 
 /*site-nav*/
@@ -53,8 +54,9 @@
     color: var(--secondary-color);
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,14;
+    line-height: 1.14;
     letter-spacing: 0.02em;
+    text-decoration: none;
 }
 
 .site-nav .link:hover,
@@ -76,17 +78,19 @@
 .tel-header {
   color: var(--primary-text-color);
   font-family: inherit;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 14px;
-  line-height: 1,7;
+  line-height: 1.7;
+  text-decoration: none;
 }
 
 .mail-header {
     color: var(--primary-text-color);
     font-family: inherit;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 14px;
-    line-height: 1,7;
+    line-height: 1.7;
+    text-decoration: none;
 }
 
 /*hero*/
@@ -99,15 +103,21 @@
     color: var(--simply-white);
     font-weight: 900;
     font-size: 44px;
-    line-height: 1,36;
+    line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
 .hero-btn {
     color: var(--simply-white);
     background: var(--accent-color);
     font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+
 }
 
 /*features*/
@@ -116,21 +126,22 @@
     color: var(--secondary-color);
     font-weight: 700;
     font-size: 14px;
-    line-height: 1,14;
+    line-height: 1.14;
+    text-transform: uppercase;
 }
 
 .features-text {
     color: var(--primary-text-color);
     font-weight: 400;
     font-size: 14px;
-    line-height: 1,7;
+    line-height: 1.7;
 }
 
 .section-title {
     color: var(--secondary-color);
     font-weight: 700;
     font-size: 36px;
-    line-height: 1,17;
+    line-height: 1.17;
     text-align: center;
 }
 
@@ -138,14 +149,12 @@
     color: var(--secondary-color);
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,19;
+    line-height: 1.19;
 }
 
 .team-text {
     color: var(--primary-text-color);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1,19;
+    line-height: 1.19;
 }
 
 /*footer*/
@@ -160,25 +169,24 @@
 
 .location {
     color: var(--simply-white);
-    font-weight: 400;
     font-size: 14px;
-    line-height: 1,7;
+    line-height: 1.7;
 }
 
 .tel-footer {
     color: var(--contacs-footer);
     font-family: inherit;
-    font-weight: 400;
     font-size: 14px;
-    line-height: 1,7;
+    line-height: 1.7;
+    text-decoration: none;
 }
 
 .mail-footer {
     color: var(--contacs-footer);
     font-family: inherit;
-    font-weight: 400;
     font-size: 14px;
-    line-height: 1,7;
+    line-height: 1.7;
+    text-decoration: none;
 }
 
 /*filters*/
@@ -187,6 +195,10 @@
     color: var(--secondary-color);
     background-color: var(--simply-white);
     font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
 }
 
 .filters-btn-primary {
@@ -214,6 +226,5 @@
 .work-text {
     color: var(--primary-text-color);
     font-weight: 400;
-    font-size: 16px;
-    line-height: 1,9;
+    line-height: 1.9;
 }
